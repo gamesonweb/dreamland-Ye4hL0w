@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/DreamTravelers/assets/icon.png">
+    <title>DreamTravelers - Niveau 1</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="renderCanvas"></canvas>
+        <div id="gameUI">
+            <button id="backButton" onclick="window.location.href='index.html'">Retour au menu</button>
+        </div>
+        
+        <!-- Volume control interface -->
+        <div id="volumeControl">
+            <div class="volume-icon" id="volumeIcon">
+                <i class="fas fa-volume-up" id="volumeUpIcon"></i>
+                <i class="fas fa-volume-mute" id="volumeMuteIcon" style="display: none;"></i>
+            </div>
+            <input type="range" id="volumeSlider" min="0" max="100" value="25" class="slider">
+        </div>
+    </div>
+
+    <!-- Preloaded audio (invisible) -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="assets/audio/music-level1.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="../gameProgress.js"></script>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <script src="https://cdn.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+    <script src="js/levels/BaseLevel.js"></script>
+    <script src="js/elements/Grid.js"></script>
+    <script src="js/entities/Player.js"></script>
+    <script src="js/elements/RotatingPlatform.js"></script>
+    <script src="js/elements/Clouds.js"></script>
+    <script src="js/elements/Exit.js"></script>
+    <script src="js/elements/Stairs.js"></script>
+    <script src="js/elements/Fragment.js"></script>
+    <script src="js/levels/level1.js"></script>
+    <script>
+        // Fonction pour démarrer la musique
+        function startBackgroundMusic() {
+            const backgroundMusic = document.getElementById('backgroundMusic');
+            backgroundMusic.volume = 0.25;
+            backgroundMusic.play()
+                .then(() => {
+                    console.log("Audio started successfully");
+                })
+                .catch(error => {
+                    console.error("Audio playback failed:", error);
+                    // En cas d'échec, on essaie de démarrer avec l'interaction utilisateur
+                    document.addEventListener('click', function startOnClick() {
+                        backgroundMusic.play();
+                        document.removeEventListener('click', startOnClick);
+                    }, { once: true });
+                });
+        }
+
+        window.addEventListener("DOMContentLoaded", () => {
+            const level1 = new Level1();
+            level1.startLevel(1);
+            
+            // Essayer de démarrer la musique immédiatement
+            startBackgroundMusic();
+            
+            // Volume control
+            const volumeSlider = document.getElementById('volumeSlider');
+            const volumeIcon = document.getElementById('volumeIcon');
+            const volumeUpIcon = document.getElementById('volumeUpIcon');
+            const volumeMuteIcon = document.getElementById('volumeMuteIcon');
+            
+            volumeSlider.addEventListener('input', () => {
+                const volume = volumeSlider.value / 100;
+                document.getElementById('backgroundMusic').volume = volume;
+                
+                // Show/hide mute icon based on volume
+                if (volume === 0) {
+                    volumeUpIcon.style.display = 'none';
+                    volumeMuteIcon.style.display = 'inline-block';
+                } else {
+                    volumeUpIcon.style.display = 'inline-block';
+                    volumeMuteIcon.style.display = 'none';
+                }
+            });
+            
+            volumeIcon.addEventListener('click', () => {
+                const backgroundMusic = document.getElementById('backgroundMusic');
+                if (backgroundMusic.volume > 0) {
+                    // Store volume before muting
+                    volumeIcon.dataset.previousVolume = volumeSlider.value;
+                    volumeSlider.value = 0;
+                    backgroundMusic.volume = 0;
+                    volumeUpIcon.style.display = 'none';
+                    volumeMuteIcon.style.display = 'inline-block';
+                } else {
+                    // Restore previous volume
+                    const previousVolume = volumeIcon.dataset.previousVolume || 75;
+                    volumeSlider.value = previousVolume;
+                    backgroundMusic.volume = previousVolume / 100;
+                    volumeUpIcon.style.display = 'inline-block';
+                    volumeMuteIcon.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
