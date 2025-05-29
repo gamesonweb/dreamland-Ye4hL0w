@@ -1,4 +1,4 @@
-![Dream Travelers](/Dream-Travelers.png)
+![Dream Travelers](/readme-img/Dream-Travelers.png)
 
 # Dream Travelers
 
@@ -23,6 +23,17 @@ Votre mission est de voyager à travers les rêves et de façonner la réalité.
 
 Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme résolue vous entraîne plus profondément dans les méandres du rêve. Collectez d'étranges fragments disséminés à travers des plateformes flottantes et des structures énigmatiques, et percez les mystères d'un monde façonné par l'imagination. Ces fragments sont essentiels pour restaurer complètement vos capacités et réparer le monde fracturé de Dream Land. Chaque niveau représente un nouvel aspect de ce monde onirique qui attend d'être sauvé.
 
+## 🕹️ Comment Jouer
+
+1. **Navigation** : Cliquez sur les blocs avec votre souris pour déplacer votre personnage. L'algorithme de pathfinding trouvera automatiquement le chemin. Si un carré rouge apparaît, cela signifie qu'il n'y a pas de plateformes menant à la position souhaitée.
+
+![Navigation](readme-img/Navigation.gif)
+
+2. **Manipulation d'Objets** : Pour déplacer les plateformes interactives, cliquez sur leurs poignées jaunes.
+3. **Collecte** : Ramassez tous les fragments dispersés dans le niveau.
+4. **Objectif** : Atteignez la sortie avec tous les fragments en votre possession pour compléter le niveau.
+
+
 ## 🎮 Fonctionnalités Principales
 
 - **Monde Isométrique 3D** : Un environnement immersif rendu avec BabylonJS offrant une perspective unique sur ce monde fantasque.
@@ -31,13 +42,6 @@ Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme ré
 - **Collecte de Fragments** : Chaque niveau contient des fragments à collecter.
 - **Design Progressif** : La difficulté augmente à mesure que vous avancez, introduisant de nouveaux défis et mécaniques.
 - **Sauvegarde de Progression** : Votre avancée est enregistrée entre les sessions de jeu si vous vous connectez.
-
-## 🕹️ Comment Jouer
-
-1. **Navigation** : Cliquez sur les blocs avec votre souris pour déplacer votre personnage. L'algorithme de pathfinding trouvera automatiquement le chemin le plus efficace.
-2. **Manipulation d'Objets** : Pour déplacer les plateformes interactives, cliquez sur leurs poignées jaunes.
-3. **Collecte** : Ramassez tous les fragments dispersés dans le niveau.
-4. **Objectif** : Atteignez la sortie avec tous les fragments en votre possession pour compléter le niveau.
 
 ## 💻 Technologies Utilisées
 
