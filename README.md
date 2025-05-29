@@ -37,7 +37,7 @@ Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme ré
    - **Sliders** : Maintenez la souris cliquée sur la poignée et déplacez la souris pour faire glisser la plateforme.
 
    ![Sliders](readme-img/Sliders.gif)
-   
+
    Notez que cliquer à côté de la poignée tentera de déplacer le joueur.
 
 3. **Collecte** : Ramassez tous les fragments dispersés dans le niveau.
@@ -137,16 +137,7 @@ DreamTravelers/
    git clone https://github.com/gamesonweb/dreamland-Ye4hL0w.git
    cd DreamTravelers
    ```
-
-3. **Lancer le jeu** :
    Ouvrez simplement le fichier `index.html` dans votre navigateur, ou utilisez un serveur web local comme Live Server pour VS Code.
-
-## 🏆 Succès et Défis
-
-Pour compléter Dream Travelers à 100%, vous devez :
-- Résoudre toutes les énigmes environnementales
-- Collecter tous les fragments dans chaque niveau
-- Terminer tous les niveaux
 
 ## 📄 Licence
 
