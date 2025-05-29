@@ -8,6 +8,7 @@
 [![BabylonJS](https://img.shields.io/badge/BabylonJS-BB464B?style=for-the-badge&logo=babylon.js&logoColor=white)](https://www.babylonjs.com/)
 
 Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours Games On Web édition 2025.
+
 Réalisé par : **Jérémy Moncada**. 
 
 ## 📖 L'Histoire
