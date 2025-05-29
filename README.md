@@ -11,7 +11,9 @@ Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D dévelo
 
 Réalisé par : **Jérémy Moncada**.
 
-Accès Direct au Jeu : [Jouer à Dream Travelers](https://games-on-web.vercel.app/DreamTravelers/index.html)
+Accès direct au menu du jeu : [Jouer à Dream Travelers](https://games-on-web.vercel.app/DreamTravelers/index.html)
+
+Le code du jeu Dream Travelers a été ajouté dans ce répertoire GitHub, mais il a initialement été codé dans un autre dépôt [ici](https://github.com/Ye4hL0w/GamesOnWeb) car il fait partie d'une trilogie de trois jeux. Voici le lien initial pour trouver les trois jeux dont le lore est lié : [Travelers](https://games-on-web.vercel.app/).
 
 ## 📖 L'Histoire
 
