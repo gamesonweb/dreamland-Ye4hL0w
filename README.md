@@ -9,7 +9,7 @@
 
 Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours **Games On Web édition 2025**.
 
-Réalisé par : **Jérémy Moncada**.
+Réalisé par : **Jérémy Moncada** étudiant en Licence 3 à MIAGE.
 
 Accès direct au menu du jeu : [Dream Travelers](https://games-on-web.vercel.app/DreamTravelers/index.html)
 
@@ -105,7 +105,7 @@ Le cœur du gameplay repose sur un système de pathfinding sophistiqué impléme
   - Orchestre la rotation et la translation du modèle 3D
   - Synchronise les animations avec le mouvement
   - Gère les transitions entre les blocs
-  
+
 ## 🔧 Installation et Démarrage
 
 1. **Accès direct au jeu déployé** :
