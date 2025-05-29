@@ -41,6 +41,7 @@ Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme ré
 ![Fragments](readme-img/Fragments.png)
 
 4. **Objectif** : Atteignez la sortie avec tous les fragments en votre possession pour compléter le niveau.
+
 ![Sortie](readme-img/Sortie.png)
 
 
