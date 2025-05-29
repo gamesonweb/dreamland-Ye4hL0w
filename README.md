@@ -1,6 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tcwhlYLU)
+![Dream Travelers](/Dream-Travelers.png)
 
-# Dream Travelers - Le Voyage Final
+# Dream Travelers
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
@@ -11,9 +11,11 @@ Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D dévelo
 
 ## 📖 L'Histoire
 
-Dans la continuité de "Shadow Travelers", vous avez réussi à récupérer votre corps physique et une partie de vos pouvoirs en surmontant de dangereuses épreuves. Vous avez maintenant accès au portail menant à Dream Travelers, mais votre quête n'est pas terminée.
+Dans la continuité de "Shadow Travelers", vous avez réussi à récupérer votre corps physique en surmontant de dangereuses épreuves. Vous avez maintenant accès au portail menant à Dream Travelers, mais votre quête n'est pas terminée.
 
-Votre mission est de rassembler tous les fragments de pouvoir disséminés à travers des plateformes flottantes et des structures énigmatiques. Ces fragments sont essentiels pour restaurer complètement vos capacités et réparer le monde fracturé de Dream Land. Chaque niveau représente un nouvel aspect de ce monde onirique qui attend d'être sauvé.
+Votre mission est de voyager à travers les rêves et de façonner la réalité. Dream Travelers vous transporte dans un univers onirique où le doute s'installe : suis-je encore éveillé… ou déjà perdu dans un rêve ?
+
+Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme résolue vous entraîne plus profondément dans les méandres du rêve. Collectez d'étranges fragments disséminés à travers des plateformes flottantes et des structures énigmatiques, et percez les mystères d'un monde façonné par l'imagination. Ces fragments sont essentiels pour restaurer complètement vos capacités et réparer le monde fracturé de Dream Land. Chaque niveau représente un nouvel aspect de ce monde onirique qui attend d'être sauvé.
 
 ## 🎮 Fonctionnalités Principales
 
