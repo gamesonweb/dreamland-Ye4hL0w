@@ -23,6 +23,18 @@ Votre mission est de voyager à travers les rêves et de façonner la réalité.
 
 Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme résolue vous entraîne plus profondément dans les méandres du rêve. Collectez d'étranges fragments disséminés à travers des plateformes flottantes et des structures énigmatiques, et percez les mystères d'un monde façonné par l'imagination. Ces fragments sont essentiels pour restaurer complètement vos capacités et réparer le monde fracturé de Dream Land. Chaque niveau représente un nouvel aspect de ce monde onirique qui attend d'être sauvé.
 
+## 🌍 Les Trois Mondes
+
+Dream Travelers propose trois niveaux différents, chacun avec son propre style :
+
+1. **Le Niveau Marin** : Vous êtes sur un bateau au milieu de l'océan. Il faut se déplacer de plateforme en plateforme pour trouver tous les fragments cachés.
+
+2. **Le Niveau dans les Nuages** : On se balade dans le ciel, en allant de nuage en nuage. Il y a pas mal de passages secrets où vous pourrez trouver des fragments.
+
+3. **Le Niveau Spatial** : Pour finir, direction l'espace ! Vous flotterez entre les plateformes pour attraper les derniers fragments. C'est le niveau le plus difficile, alors assurez-vous de bien observer l'environnement, car certaines plateformes sont cachées.
+
+Chaque niveau a ses petites particularités et ses secrets. Vous ne vous ennuierez pas !
+
 ## 🕹️ Comment Jouer
 
 1. **Navigation** : Cliquez sur les blocs avec votre souris pour déplacer votre personnage. L'algorithme de pathfinding trouvera automatiquement le chemin. Si un carré rouge apparaît, cela signifie qu'il n'y a pas de plateformes menant à la position souhaitée.
@@ -48,59 +60,6 @@ Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme ré
 
 ![Sortie](readme-img/Sortie.png)
 
-
-## 🎮 Fonctionnalités Principales
-
-- **Monde Isométrique 3D** : Un environnement immersif rendu avec BabylonJS offrant une perspective unique sur ce monde fantasque.
-- **Système de Déplacement Intuitif** : Cliquez sur les blocs pour vous déplacer automatiquement grâce à un algorithme de pathfinding avancé.
-- **Énigmes Environnementales** : Manipulez des plateformes mobiles et découvrez des éléments cachés pour progresser.
-- **Collecte de Fragments** : Chaque niveau contient des fragments à collecter.
-- **Design Progressif** : La difficulté augmente à mesure que vous avancez, introduisant de nouveaux défis et mécaniques.
-- **Sauvegarde de Progression** : Votre avancée est enregistrée entre les sessions de jeu si vous vous connectez.
-
-## 💻 Technologies Utilisées
-
-- **Rendu 3D** : BabylonJS pour le rendu graphique et les effets visuels
-- **Front-end** : HTML5, CSS3, JavaScript (ES6+)
-- **Animation** : GSAP pour les transitions fluides
-- **Effets Visuels** : Particles.js pour les effets de particules
-- **Stockage** : LocalStorage pour la sauvegarde de progression
-
-## 🔍 Architecture Technique
-
-### Système de Pathfinding
-
-Le cœur du gameplay repose sur un système de pathfinding sophistiqué implémenté dans la classe `Player` :
-
-- **`findPath(target)`** : Méthode principale qui détermine comment le joueur se déplace d'un point A à un point B.
-  - Analyse si le joueur doit monter ou descendre pour atteindre la cible
-  - Sélectionne l'algorithme approprié en fonction de la situation
-  - Valide les chemins pour éviter les déplacements impossibles
-  - Intègre des règles spéciales comme l'utilisation obligatoire des escaliers pour monter
-
-- **`findDescentPath`** : Implémentation d'un algorithme A* adapté qui :
-  - Évalue intelligemment les blocs voisins accessibles
-  - Accorde une priorité aux escaliers quand nécessaire
-  - Prend en compte les plateformes mobiles et rotatives
-  - Calcule les coûts de déplacement pour trouver le chemin optimal
-
-- **`moveAlongPath(path)`** : Anime le déplacement du personnage le long du chemin calculé
-  - Orchestre la rotation et la translation du modèle 3D
-  - Synchronise les animations avec le mouvement
-  - Gère les transitions entre les blocs
-
-## 🌍 Les Trois Mondes
-
-Dream Travelers propose trois niveaux différents, chacun avec son propre style :
-
-1. **Le Niveau Marin** : Vous êtes sur un bateau au milieu de l'océan. Il faut sauter de plateforme en plateforme pour trouver tous les fragments cachés.
-
-2. **Le Niveau dans les Nuages** : On se balade dans le ciel, en sautant de nuage en nuage. Il y a pas mal de passages secrets planqués dans le brouillard où vous pourrez trouver des fragments.
-
-3. **Le Niveau Spatial** : Pour finir, direction l'espace ! Vous flotterez entre les plateformes pour attraper les derniers fragments.
-
-Chaque niveau a ses petites particularités et ses secrets. Vous ne vous ennuierez pas !
-
 ## 📁 Structure du Projet
 
 ```
@@ -124,6 +83,29 @@ DreamTravelers/
 └── level3.html            # Niveau spatial
 ```
 
+## 🔍 Architecture Technique
+
+### Système de Pathfinding
+
+Le cœur du gameplay repose sur un système de pathfinding sophistiqué implémenté dans la classe `Player` :
+
+- **`findPath(target)`** : Méthode principale qui détermine comment le joueur se déplace d'un point A à un point B.
+  - Analyse si le joueur doit monter ou descendre pour atteindre la cible
+  - Sélectionne l'algorithme approprié en fonction de la situation
+  - Valide les chemins pour éviter les déplacements impossibles
+  - Intègre des règles spéciales comme l'utilisation obligatoire des escaliers pour monter
+
+- **`findDescentPath`** : Implémentation d'un algorithme A* adapté qui :
+  - Évalue intelligemment les blocs voisins accessibles
+  - Accorde une priorité aux escaliers quand nécessaire
+  - Prend en compte les plateformes mobiles et rotatives
+  - Calcule les coûts de déplacement pour trouver le chemin optimal
+
+- **`moveAlongPath(path)`** : Anime le déplacement du personnage le long du chemin calculé
+  - Orchestre la rotation et la translation du modèle 3D
+  - Synchronise les animations avec le mouvement
+  - Gère les transitions entre les blocs
+  
 ## 🔧 Installation et Démarrage
 
 1. **Accès direct au jeu déployé** :
