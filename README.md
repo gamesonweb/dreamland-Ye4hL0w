@@ -1,13 +1,17 @@
 ![Dream Travelers](/Dream-Travelers.png)
 
+<div align="center">
+
 # Dream Travelers
+
+</div>
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 [![BabylonJS](https://img.shields.io/badge/BabylonJS-BB464B?style=for-the-badge&logo=babylon.js&logoColor=white)](https://www.babylonjs.com/)
 
-Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours Games On Web édition 2025 par **Jérémy Moncada**. Explorez des paysages oniriques vibrants, résolvez des énigmes complexes et restaurez l'harmonie du monde de Dream Land.
+Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours Games On Web édition 2025 par **Jérémy Moncada**. 
 
 ## 📖 L'Histoire
 
