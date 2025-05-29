@@ -29,7 +29,12 @@ Progressez à travers des niveaux évoluant dans le ciel, où chaque énigme ré
 
 ![Navigation](readme-img/Navigation.gif)
 
-2. **Manipulation d'Objets** : Pour déplacer les plateformes interactives, cliquez sur leurs poignées jaunes.
+2. **Manipulation d'Objets** : Pour déplacer les plateformes interactives, cliquez sur leurs poignées jaunes. Il existe deux types de plateformes : 
+   - **Plateformes Rotatives** : Cliquez sur la poignée pour faire pivoter la plateforme.
+   ![Plateforme Rotative](readme-img/Plateforme-Rotative.gif)
+   - **Sliders** : Maintenez la souris cliquée sur la poignée et déplacez la souris pour faire glisser la plateforme.
+   ![Sliders](readme-img/Sliders.gif)
+   Notez que cliquer à côté de la poignée tentera de déplacer le joueur.
 3. **Collecte** : Ramassez tous les fragments dispersés dans le niveau.
 4. **Objectif** : Atteignez la sortie avec tous les fragments en votre possession pour compléter le niveau.
 
