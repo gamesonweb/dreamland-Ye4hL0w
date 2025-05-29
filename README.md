@@ -7,9 +7,12 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 [![BabylonJS](https://img.shields.io/badge/BabylonJS-BB464B?style=for-the-badge&logo=babylon.js&logoColor=white)](https://www.babylonjs.com/)
 
-Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours Games On Web édition 2025.
+Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours **Games On Web édition 2025**.
 
-Réalisé par : **Jérémy Moncada**. 
+Réalisé par : **Jérémy Moncada**.
+
+Accès Direct au Jeu : [Jouer à Dream Travelers](https://games-on-web.vercel.app/DreamTravelers/index.html)
+
 
 ## 📖 L'Histoire
 
