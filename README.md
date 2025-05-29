@@ -7,11 +7,12 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 [![BabylonJS](https://img.shields.io/badge/BabylonJS-BB464B?style=for-the-badge&logo=babylon.js&logoColor=white)](https://www.babylonjs.com/)
 
-Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours Games On Web édition 2025 par **Jérémy Moncada**. 
+Bienvenue dans **Dream Travelers**, un jeu d'aventure isométrique en 3D développé pour le concours Games On Web édition 2025.
+Réalisé par : **Jérémy Moncada**. 
 
 ## 📖 L'Histoire
 
-Dans la continuité de "Shadow Travelers", vous avez réussi à récupérer votre corps physique en surmontant de dangereuses épreuves. Vous avez maintenant accès au portail menant à Dream Travelers, mais votre quête n'est pas terminée.
+Dans la continuité de **Shadow Travelers**, vous avez réussi à récupérer votre corps physique en surmontant de dangereuses épreuves. Vous avez maintenant accès au portail menant à Dream Travelers, mais votre quête n'est pas terminée.
 
 Votre mission est de voyager à travers les rêves et de façonner la réalité. Dream Travelers vous transporte dans un univers onirique où le doute s'installe : suis-je encore éveillé… ou déjà perdu dans un rêve ?
 
