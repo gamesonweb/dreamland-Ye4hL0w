@@ -13,7 +13,9 @@ Réalisé par : **Jérémy Moncada** étudiant en Licence 3 à MIAGE.
 
 Accès direct au menu du jeu : [Dream Travelers](https://games-on-web.vercel.app/DreamTravelers/index.html)
 
-Découvrez la vidéo complète du gameplay du jeu : [![Vidéo complète du jeu](https://img.youtube.com/vi/PtZLwr-M_UI/0.jpg)](https://youtu.be/PtZLwr-M_UI) (⚠️ Attention : cette vidéo contient des spoilers sur la résolution de toutes les énigmes)
+Découvrez la vidéo complète du gameplay du jeu : [![Vidéo complète du jeu](https://img.youtube.com/vi/PtZLwr-M_UI/0.jpg)](https://youtu.be/PtZLwr-M_UI)
+
+(⚠️ Attention : cette vidéo contient des spoilers sur la résolution de toutes les énigmes)
 
 Le code du jeu a été ajouté dans ce répertoire GitHub, il a initialement été codé dans un autre dépôt [ici](https://github.com/Ye4hL0w/GamesOnWeb) car il fait partie d'une trilogie de trois jeux. Voici le lien initial pour trouver les trois jeux dont le lore est lié : [Travelers](https://games-on-web.vercel.app/).
 
