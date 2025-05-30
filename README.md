@@ -13,6 +13,8 @@ Réalisé par : **Jérémy Moncada** étudiant en Licence 3 à MIAGE.
 
 Accès direct au menu du jeu : [Dream Travelers](https://games-on-web.vercel.app/DreamTravelers/index.html)
 
+Découvrez la vidéo complète du gameplay du jeu : [![Vidéo complète du jeu](https://img.youtube.com/vi/PtZLwr-M_UI/0.jpg)](https://youtu.be/PtZLwr-M_UI) (⚠️ Attention : cette vidéo contient des spoilers sur toutes les énigmes)
+
 Le code du jeu a été ajouté dans ce répertoire GitHub, il a initialement été codé dans un autre dépôt [ici](https://github.com/Ye4hL0w/GamesOnWeb) car il fait partie d'une trilogie de trois jeux. Voici le lien initial pour trouver les trois jeux dont le lore est lié : [Travelers](https://games-on-web.vercel.app/).
 
 ## 📖 L'Histoire
@@ -31,7 +33,7 @@ Dream Travelers propose trois niveaux différents, chacun avec son propre style 
 
 2. **Le Niveau dans les Nuages** : On se balade dans le ciel, en allant de nuage en nuage. Il y a pas mal de passages secrets où vous pourrez trouver des fragments.
 
-3. **Le Niveau Spatial** : Pour finir, direction l'espace ! Vous flotterez entre les plateformes pour attraper les derniers fragments. C'est le niveau le plus difficile, alors assurez-vous de bien observer l'environnement, car certaines plateformes sont cachées.
+3. **Le Niveau Spatial** : Pour finir, direction l'espace ! Vous flotterez entre les plateformes pour attraper les derniers fragments. C'est le niveau le plus difficile, les énigmes ont été les plus complexes à réaliser. Assurez-vous de bien observer l'environnement, car certaines plateformes sont cachées. Conseil : utilisez Control + clic de la souris pour déplacer le point de vue et le centrer sur le personnage, ce qui peut aider à mieux visualiser les éléments les plus lointains.
 
 Chaque niveau a ses petites particularités et ses secrets. Vous ne vous ennuierez pas !
 
