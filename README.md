@@ -41,9 +41,9 @@ Chaque niveau a ses petites particularités et ses secrets. Vous ne vous ennuier
 
 ## 🕹️ Comment Jouer
 
-1. **Navigation** : Cliquez sur les blocs avec votre souris pour déplacer votre personnage. L'algorithme de pathfinding trouvera automatiquement le chemin. Si un carré rouge apparaît, cela signifie qu'il n'y a pas de plateformes menant à la position souhaitée.
+1. **Déplacements** : Cliquez sur les blocs avec votre souris pour déplacer votre personnage. L'algorithme de pathfinding trouvera automatiquement le chemin. Si un carré rouge apparaît, cela signifie qu'il n'y a pas de plateformes menant à la position souhaitée.
 
-![Navigation](readme-img/Navigation.gif)
+![Déplacements](readme-img/Déplacements.gif)
 
 2. **Manipulation d'Objets** : Pour déplacer les plateformes interactives, cliquez sur leurs poignées jaunes. Il existe deux types de plateformes : 
    - **Plateformes Rotatives** : Cliquez sur la poignée pour faire pivoter la plateforme.
